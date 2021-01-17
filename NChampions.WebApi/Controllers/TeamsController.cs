@@ -1,7 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace NChampions.WebApi.Controllers
@@ -10,5 +8,10 @@ namespace NChampions.WebApi.Controllers
     [ApiController]
     public class TeamsController
     {
+        [HttpPost]
+        public async Task<IActionResult> Post()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
