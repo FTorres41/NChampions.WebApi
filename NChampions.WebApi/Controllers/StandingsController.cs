@@ -6,5 +6,6 @@ namespace NChampions.WebApi.Controllers
     [ApiController]
     public class StandingsController
     {
+        //TODO: fazer controller
     }
 }
