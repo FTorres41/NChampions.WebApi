@@ -9,9 +9,9 @@ namespace NChampions.WebApi.Controllers
     public class TeamsController
     {
         [HttpPost]
-        public async Task<IActionResult> Post()
+        public Task<IActionResult> Post()
         {
-            throw new NotImplementedException();
+            throw new NotImplementedException("Work in progress");
         }
     }
 }
